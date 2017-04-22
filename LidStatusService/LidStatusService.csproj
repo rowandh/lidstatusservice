@@ -45,17 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lid.cs" />
     <Compile Include="ProjectInstaller.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="ProjectInstaller.Designer.cs">
       <DependentUpon>ProjectInstaller.cs</DependentUpon>
     </Compile>
-    <Compile Include="LaptopLidService.cs">
+    <Compile Include="LidStatusService.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="LaptopLidService.Designer.cs">
-      <DependentUpon>LaptopLidService.cs</DependentUpon>
+    <Compile Include="LidStatusService.Designer.cs">
+      <DependentUpon>LidStatusService.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,8 +68,8 @@
     <EmbeddedResource Include="ProjectInstaller.resx">
       <DependentUpon>ProjectInstaller.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LaptopLidService.resx">
-      <DependentUpon>LaptopLidService.cs</DependentUpon>
+    <EmbeddedResource Include="LidStatusService.resx">
+      <DependentUpon>LidStatusService.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

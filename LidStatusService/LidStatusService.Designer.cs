@@ -1,6 +1,6 @@
 ﻿namespace LidStatusService
 {
-    partial class LaptopLidService
+    partial class LidStatusService
     {
         /// <summary> 
         /// Required designer variable.
